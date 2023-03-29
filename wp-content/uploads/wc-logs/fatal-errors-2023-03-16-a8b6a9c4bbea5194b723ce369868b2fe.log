@@ -1,0 +1,25 @@
+2023-03-16T14:26:15+00:00 CRITICAL Uncaught ValueError: DOMDocument::loadXML(): Argument #1 ($source) must not be empty in C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WXR_Parser_SimpleXML.php:25
+Stack trace:
+#0 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WXR_Parser_SimpleXML.php(25): DOMDocument->loadXML('')
+#1 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WXR_Parser.php(69): TIOB\Importers\WP\WXR_Parser_SimpleXML->parse('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WP_Import.php(900): TIOB\Importers\WP\WXR_Parser->parse('C:\\laragon\\www\\...')
+#3 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WP_Import.php(116): TIOB\Importers\WP\WP_Import->parse('C:\\laragon\\www\\...')
+#4 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WP_Import.php(70): TIOB\Importers\WP\WP_Import->import_start('C:\\laragon\\www\\...')
+#5 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\Content_Importer.php(324): TIOB\Importers\WP\WP_Import->import('C:\\laragon\\www\\...')
+#6 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\Content_Importer.php(122): TIOB\Importers\Content_Importer->import_file('C:\\laragon\\www\\...', Array, 'gutenberg')
+#7 C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Rest_Server.php(186): TIOB\Importers\Content_Importer->import_remote_xml(Object(WP_REST_Request))
+#8 C:\laragon\www\ecomWordPress\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1171): TIOB\Rest_Server->run_xml_importer(Object(WP_REST_Request))
+#9 C:\laragon\www\ecomWordPress\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ti-sites-lib/v...', Array, NULL)
+#10 C:\laragon\www\ecomWordPress\wordpress\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#11 C:\laragon\www\ecomWordPress\wordpress\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/ti-sites-lib/v...')
+#12 C:\laragon\www\ecomWordPress\wordpress\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#13 C:\laragon\www\ecomWordPress\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#14 C:\laragon\www\ecomWordPress\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#15 C:\laragon\www\ecomWordPress\wordpress\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#16 C:\laragon\www\ecomWordPress\wordpress\wp-includes\class-wp.php(780): WP->parse_request('')
+#17 C:\laragon\www\ecomWordPress\wordpress\wp-includes\functions.php(1332): WP->main('')
+#18 C:\laragon\www\ecomWordPress\wordpress\wp-blog-header.php(16): wp()
+#19 C:\laragon\www\ecomWordPress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#20 {main}
+  thrown in C:\laragon\www\ecomWordPress\wordpress\wp-content\plugins\templates-patterns-collection\includes\Importers\WP\WXR_Parser_SimpleXML.php on line 25
+

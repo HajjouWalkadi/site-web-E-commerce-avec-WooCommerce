@@ -1,0 +1,18 @@
+[16/Mar/2023:14:45:01] (I): WordPress Instance Info:
+[16/Mar/2023:14:45:01] (I): Home URL : http://localhost/ecomWordPress/wordpress
+[16/Mar/2023:14:45:01] (I): Site URL : http://localhost/ecomWordPress/wordpress
+[16/Mar/2023:14:45:01] (I): WordPress Version : 6.1.1
+[16/Mar/2023:14:45:01] (I): Onboarding Version : 1.1.35
+[16/Mar/2023:14:45:01] (I): Multisite : No
+[16/Mar/2023:14:45:01] (I): Server Info : Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+[16/Mar/2023:14:45:01] (I): PHP Version : 8.1.10
+[16/Mar/2023:14:45:01] (I): HTTPS : No
+[16/Mar/2023:14:45:01] (I): PHP Max Execution Time : 36000
+[16/Mar/2023:14:45:01] (I): PHP Max Input Vars : 1000
+[16/Mar/2023:14:45:01] (I): Max Upload Size : 2147483648
+[16/Mar/2023:14:45:01] (I): Plugins:
+[16/Mar/2023:14:45:01] (I): [PLUGIN] Image optimization service by Optimole : v3.5.7 (Optimole)
+[16/Mar/2023:14:45:01] (I): [PLUGIN] Otter – Page Builder Blocks &amp; Extensions for Gutenberg : v2.2.3 (ThemeIsle)
+[16/Mar/2023:14:45:01] (I): [PLUGIN] Templates Patterns Collection : v1.1.35 (ThemeIsle)
+[16/Mar/2023:14:45:01] (I): [PLUGIN] Spectra : v2.4.0 (Brainstorm Force)
+[16/Mar/2023:14:45:01] (I): [PLUGIN] WooCommerce : v7.5.0 (Automattic)
